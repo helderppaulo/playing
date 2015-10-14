@@ -20,7 +20,7 @@ class Application extends Controller {
   }
   
   def teste = Action {
-    Ok(views.html.index("uhuhuhuhuhu"))
+    Redirect(controllers.routes.Application.hello())
   }
 
 }
