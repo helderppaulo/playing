@@ -9,6 +9,8 @@ target
 logs
 project/project
 project/target
+project
+.sbtserver
 target
 bin
 tmp

@@ -14,3 +14,5 @@ GET		/hello						controllers.Application.hello
 GET		/teste						controllers.Application.teste
 
 GET		/batata						controllers.BatataController.batatar
+
+GET		/user/create				controllers.User.create
